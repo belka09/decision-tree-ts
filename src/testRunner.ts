@@ -1,13 +1,13 @@
 import { DecisionTree } from './decisionTree';
 
-// Simple condition without a falseAction
+// Simple condition without a true action
 const simpleConditionJson = JSON.stringify({
   type: 'Condition',
   condition: 'true',
   trueAction: { type: 'SendSMS', phoneNumber: '+1234567890' },
 });
 
-console.log('--- Simple condition without a falseAction ---');
+console.log('--- Simple condition without a true action ---');
 const simpleConditionTree = DecisionTree.deserialize(simpleConditionJson);
 simpleConditionTree.execute();
 
