@@ -10,9 +10,6 @@ This project implements a decision tree in TypeScript. It is designed to run on 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts](#scripts)
-- [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
