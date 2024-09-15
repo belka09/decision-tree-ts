@@ -11,6 +11,17 @@ console.log('--- Simple condition without a falseAction ---');
 const simpleConditionTree = DecisionTree.deserialize(simpleConditionJson);
 simpleConditionTree.execute();
 
+// Christmas condition
+const christmasConditionJson = JSON.stringify({
+  type: 'Condition',
+  condition: "new Date().toDateString() === 'Wed Jan 01 2025'",
+  trueAction: { type: 'SendSMS', phoneNumber: '+1234567890' },
+});
+
+console.log('--- Christmas condition ---');
+const christmasTree = DecisionTree.deserialize(christmasConditionJson);
+christmasTree.execute();
+
 // Loop with nested condition
 const loopWithConditionJson = JSON.stringify({
   type: 'Loop',
