@@ -10,6 +10,7 @@ This project implements a decision tree in TypeScript. It is designed to run on 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts](#scripts)
+- [Interview questions](#interview-questions)
 
 ## Getting Started
 
@@ -64,6 +65,10 @@ node dist/index.js
 ## Bugs and Issues
 
 If you encounter any bugs or have questions, please submit an issue on the project's [GitHub Issues](https://github.com/belka09/decision-tree-ts/issues) page.
+
+## Interview questions
+
+For more information on designing a multi-tenant SaaS platform, check out our [Interview Questions and Answers](INTERVIEW_QUESTIONS.md) document.
 
 ## Author
 
